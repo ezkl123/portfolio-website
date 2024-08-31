@@ -1,11 +1,28 @@
-h1{
-    color: #90708c;
+#name{
+    display: inline-block;
+    height: 40px;
+    position: relative;
+    left: 38vw;
+    border: 5px solid #FCE9BF;
+    border-radius: 10px;
+    background-color: #F1D494;
+    padding: 10px;
+    margin: 40px;
 }
 
 body{
-    background-color: #ACE4AA;
+    background-color: #330072;
 }
 
-span{
-    background-color: #E1CDB5;
+.general-div-styling {
+    border: 5px solid #FCE9BF;
+    border-radius: 10px;
+    background-color: #F1D494;
+    padding: 10px;
+    margin: 40px;
+}
+
+.text{
+    color: black;
+    font-family: "Lucida Console", monospace;
 }

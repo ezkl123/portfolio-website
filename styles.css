@@ -29,6 +29,10 @@ body{
     font-family: 'Courier New', Courier, monospace
 }
 
+img{
+    mix-blend-mode: normal;
+}
+
 .text-footer{
     color: white;
     font-family: 'Courier New', Courier, monospace
@@ -36,7 +40,7 @@ body{
 
 .footer-div-styling{
     background-color: #824bc5;
-    border-top: 1px solid white;
+    border: 1px solid white;
     padding: 10px;
 }
 

@@ -11,10 +11,12 @@
 }
 
 body{
-    background-color: #431b75;
+    background-color: #5512a7;
 }
 
-.general-div-styling {
+
+
+.main-div-styling {
     border: 5px solid #FCE9BF;
     border-radius: 10px;
     background-color: #F1D494;
@@ -25,4 +27,20 @@ body{
 .text{
     color: black;
     font-family: 'Courier New', Courier, monospace
+}
+
+.text-footer{
+    color: white;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.footer-div-styling{
+    background-color: #824bc5;
+    border-top: 1px solid white;
+    padding: 10px;
+}
+
+.contact-aligning{
+    display: inline-block;
+    margin: 0;
 }

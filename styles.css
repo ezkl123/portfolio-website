@@ -1,53 +1,16 @@
-#name {
-  display: inline-block;
-  height: 40px;
-  position: relative;
-  left: 38vw;
-  border: 5px solid #fce9bf;
-  border-radius: 10px;
-  background-color: #f1d494;
-  padding: 10px;
-  margin: 40px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 
-body {
-  background-color: #5512a7;
+
+.logo {
+ 
 }
 
-.main-div-styling {
-  border: 5px solid #fce9bf;
-  border-radius: 10px;
-  background-color: #f1d494;
-  padding: 10px;
-  margin: 40px;
-}
-
-.text {
-  color: black;
-  font-family: "Courier New", Courier, monospace;
-}
-
-.social-button {
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  width: 50px;
-  height: 50px;
-}
-
-.text-footer {
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-}
-
-.footer-div-styling {
-  background-color: #824bc5;
-  border: 1px solid white;
-  margin-top: 40px;
-  padding: 10px;
-}
-
-.contact-aligning {
-  display: inline-block;
-  margin: 0;
+.navbar {
+  display: flex;
+  gap: 6rem;
 }

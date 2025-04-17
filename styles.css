@@ -14,3 +14,50 @@
   display: flex;
   gap: 6rem;
 }
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  padding: 6rem;
+}
+
+#intro-text {
+  font-size: 2rem;
+}
+
+#project-button {
+  margin: 0.75rem 25rem;
+  padding: 0.75rem 1.5rem;
+}
+
+.sub-headings {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 8rem 8rem;
+}
+
+.projects-and-tools {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.items {
+  margin: 0rem 8rem;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+#bio {
+  margin-right: 20rem;
+}
+
+#contact-info {
+  display: flex;
+  justify-content: center;
+}
+

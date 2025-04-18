@@ -1,3 +1,7 @@
+* {
+  overflow-x: hidden;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -53,11 +57,20 @@
 }
 
 #bio {
+  border-style: solid;
+  padding: 5rem;
   margin-right: 20rem;
 }
 
 #contact-info {
   display: flex;
   justify-content: center;
+}
+
+.intro-background {
+  box-sizing: border-box;
+  background-color: #AE562A;
+  padding: 10rem;
+  border-radius: 2.5rem;
 }
 

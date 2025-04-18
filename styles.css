@@ -2,10 +2,16 @@
   overflow-x: hidden;
 }
 
+#body {
+  background-color: beige;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 1rem;
 }
 
@@ -57,20 +63,32 @@
 }
 
 #bio {
-  border-style: solid;
+  border-style: none;
+  border-radius: 2.5rem;
+  background-color: #38A367;
   padding: 5rem;
   margin-right: 20rem;
 }
 
 #contact-info {
+  box-sizing: border-box;
+  background-color: #38A367;
   display: flex;
   justify-content: center;
 }
 
 .intro-background {
   box-sizing: border-box;
-  background-color: #AE562A;
-  padding: 10rem;
+  background-color: #D37B50;
+  margin: 2rem;
+  padding: 5rem;
+  padding-bottom: 10rem;
   border-radius: 2.5rem;
 }
 
+
+.nav-styling {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}

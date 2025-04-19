@@ -75,6 +75,8 @@
   background-color: #38A367;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
 }
 
 .intro-background {
@@ -91,4 +93,15 @@
   text-decoration: none;
   color: inherit;
   font-weight: bold;
+}
+
+.contact-styling {
+  box-sizing: border-box;
+  background-color: #38A367;
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+
+.green-background-font {
+  color: white;
 }
